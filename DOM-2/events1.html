@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+</head>
+
+<body>
+    <h1>color-1</h1>
+    <h2>color-2</h2>
+    <button ondblclick="sm()" onclick="smthg()" id="btn">click me</button>
+    <button onclick="apple()">Apple All</button>
+    <script>
+        function smthg() {
+            document.querySelector('h1').style.background = 'red';
+        }
+        function sm() {
+            document.querySelector('h2').style.background = 'blue';
+            confirm('are you sure?')
+        }
+        function apple() {
+            document.querySelector('body').style.background = 'gold'
+            prompt('applying to all')
+        }
+        // function secFun(obj) {
+        //     // obj.innerHTML = "Ayushi, Raghav, Brinda, Daiwik";
+        //     document.querySelector('h2').style.background = 'red';
+        // }
+        // document.getElementById('btn').onclick = something;
+        // function something() {
+        //     document.querySelector('body').style.background = 'red';
+        // }
+        // function smthg() {
+        //     document.getElementById('btn')
+        // }
+    </script>
+
+</body>
+
+</html>

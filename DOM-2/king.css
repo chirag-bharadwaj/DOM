@@ -1,0 +1,11 @@
+#add-book:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#add-book #hide{
+    width: 30px;
+}
+#add-book label{
+    line-height: 52px;
+}
